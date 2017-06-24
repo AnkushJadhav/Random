@@ -1,0 +1,126 @@
+Timing function borrowed from : https://stackoverflow.com/a/1557906
+
+########################## LOGS FOR NAIVE FIBONACCI ALGO #############################
+Ankushs-MacBook-Air:python ankush$ python fibonacci.py 
+========================================
+0:00:00.041 - Start Program
+========================================
+
+Fibonacci(20) = 6765
+========================================
+0:00:00.046 - End Program
+Elapsed time: 0:00:00.005
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python fibonacci.py 
+========================================
+0:00:00.039 - Start Program
+========================================
+
+Fibonacci(25) = 75025
+========================================
+0:00:00.091 - End Program
+Elapsed time: 0:00:00.052
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python fibonacci.py 
+========================================
+0:00:00.041 - Start Program
+========================================
+
+Fibonacci(30) = 832040
+========================================
+0:00:00.671 - End Program
+Elapsed time: 0:00:00.629
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python fibonacci.py 
+========================================
+0:00:00.036 - Start Program
+========================================
+
+Fibonacci(35) = 9227465
+========================================
+0:00:06.648 - End Program
+Elapsed time: 0:00:06.611
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python fibonacci.py 
+========================================
+0:00:00.037 - Start Program
+========================================
+
+Fibonacci(40) = 102334155
+========================================
+0:01:13.242 - End Program
+Elapsed time: 0:01:13.204
+========================================
+
+################################################################################
+
+########################## LOGS FOR MEMOISED FIBONACCI ALGO #############################
+Ankushs-MacBook-Air:python ankush$ python memo_fibonacci.py 
+========================================
+0:00:00.035 - Start Program
+========================================
+
+Memoised Fibonacci(20) = 6765
+========================================
+0:00:00.045 - End Program
+Elapsed time: 0:00:00.010
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi memo_fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python memo_fibonacci.py 
+========================================
+0:00:00.036 - Start Program
+========================================
+
+Memoised Fibonacci(25) = 75025
+========================================
+0:00:00.151 - End Program
+Elapsed time: 0:00:00.114
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi memo_fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python memo_fibonacci.py 
+========================================
+0:00:00.036 - Start Program
+========================================
+
+Memoised Fibonacci(30) = 832040
+========================================
+0:00:01.188 - End Program
+Elapsed time: 0:00:01.152
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi memo_fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ python memo_fibonacci.py 
+========================================
+0:00:00.038 - Start Program
+========================================
+
+Memoised Fibonacci(35) = 9227465
+========================================
+0:00:12.694 - End Program
+Elapsed time: 0:00:12.656
+========================================
+
+Ankushs-MacBook-Air:python ankush$ vi memo_fibonacci.py 
+Ankushs-MacBook-Air:python ankush$ 
+Ankushs-MacBook-Air:python ankush$ python memo_fibonacci.py 
+========================================
+0:00:00.041 - Start Program
+========================================
+
+Memoised Fibonacci(40) = 102334155
+========================================
+0:02:18.823 - End Program
+Elapsed time: 0:02:18.782
+========================================
+
+###############################################################################
